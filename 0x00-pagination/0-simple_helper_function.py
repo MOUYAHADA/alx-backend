@@ -2,7 +2,9 @@
 """
 Simple helper function
 """
-from typing import Tuple
+from typing import Tuple, List
+import csv
+import math
 
 
 def index_range(page: int, page_size: int) -> Tuple[int, int]:
